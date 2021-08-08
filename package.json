@@ -5,12 +5,14 @@
   "name": "hello-express",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "main": "nego.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node nego.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "discord.js": "^13.0.1"
   },
   "engines": {
     "node": "12.x"
